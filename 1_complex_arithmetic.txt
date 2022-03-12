@@ -1,0 +1,7 @@
+The qubit was actually a combination, or superposition, of those two binary values, each “weighted” by numbers α and β, respectively,
+|ψ⟩ = α|0⟩+β|1
+
+
+(a+ib)/(c+id) = (ac+bd)/(c^2+d^2) + i(bc-ad)/(c^2+d^2)
+
+*1/i = -i
