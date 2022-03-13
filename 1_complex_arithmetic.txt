@@ -5,3 +5,40 @@ The qubit was actually a combination, or superposition, of those two binary valu
 (a+ib)/(c+id) = (ac+bd)/(c^2+d^2) + i(bc-ad)/(c^2+d^2)
 
 *1/i = -i
+
+Naturally, C maps to R^2. x+iy ←→ (x,y).
+
+Polar Representation: x+iy ←→ r(cosθ + isinθ)
+
+Complex Conjugate: x+iy -> x-iy. Geometrically, this is like reflecting z across the x (real) axis.
+
+Complex Modulus: The distance of the line segment in C = sqrt(Re(z)^2 + Im(z)^2)
+
+Recall: e^x = sum from n=0 to infinity of (x^n)/(n!)
+
+Hence, e^(ix) = sum from n=0 to infinity of ((ix)^n)/(n!).
+
+Recall: cos(θ) = (e^(iθ) + e^(-iθ))/2
+Recall: sin(θ) = (e^(iθ) - e^(-iθ))/(2i)
+
+We’ll consider the primitive Nth root-of-unity to be the one that has the smallest arg (angle), namely, e2πi/N , and we’ll call all the other powers, ordinary, non-primitive roots. 
+
+Exercises:
+(a). Show that when 0 ≤ l < N, w^(l(N-1)) + w^(l(N-2)) +...+ w + 1 has solutions {N when l=0 & 0 when 0 < l < N}
+
+(b). Show that when -N ≤ l < N has solutions {N when l=0,N & 0 when -N < l < N, l!=0} 
+
+(c). Show for any integer l, w^(l(N-1)) + w^(l(N-2)) +...+ w + 1 has solutions  {N when l=0 (mod N) & 0 when l!=0 (mod N)}
+
+(d). Show that for 0 ≤ j < N and 0 ≤ m < N, w^((j-m)(N-1)) + w^((j-m)(N-2)) +...+ w^(j-m) + 1 has solutions {N, j=m & 0, j!=m}
+
+*** Kronecker Delta. δkj, the Kronecker delta, is the mathematical way to express anything that is to be 0 unless the index k = j, in which case it is 1,
+
+δkj = {1 if k=j and 0, otherwise}
+
+With Kronecker Delta, we may rewrite (d)'s result as sum from k=0 to (N-1) of w^(j-m)k = N*delta_jm
+
+
+
+
+
